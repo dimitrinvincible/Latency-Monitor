@@ -15,7 +15,7 @@ PING_INTERVAL = 3  # in seconds, how often program will ping
 PROCESS_TO_MONITOR = "ReadyOrNot-Win64-Shipping.exe"  # Change as needed for program to look for
 # Ready or Not was just the program that had latency and made me create this
 
-# I only added this because I was having issues during testing with talking to my GPU
+# I only added this because I was having issues during testing with talking to my GPU, figured I'd leave it
 pynvml.nvmlLib = ctypes.CDLL("C:\\Windows\\System32\\nvml.dll")
 
 
